@@ -12,7 +12,6 @@ const arrayManipulation = (n, queries) => {
   }
   for (let j = 1; j < n; j++) {
     arr[j] += arr[j-1];
-    
     if (arr[j] > max) {
       max = arr[j];
     }
